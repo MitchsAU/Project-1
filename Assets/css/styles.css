@@ -1,0 +1,72 @@
+header{
+    /* background: grey; */
+}
+
+header .inner{
+    display: flex;
+    justify-content: space-between;
+    gap: ;
+    margin: 2em;
+    align-items: center;
+}
+
+header nav ul li{
+    display: inline;
+    margin-left: 1em;
+}
+
+header nav ul li a{
+    color: hotpink;
+    text-decoration: none;
+    background-color: grey;
+    padding: .4em;
+    border-radius: .6em;
+}
+
+
+.inner{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.here{
+    background: rgb(87, 87, 86);
+    min-height: 200px;
+}
+
+.inner-main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.inner-main h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+.inner-main p{
+    font-size: 1em;
+    text-align: center;
+}
+
+
+/* GRID */
+
+.gallery{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 1em;
+}
+.gallery div{
+    background-color: hotpink;
+    min-height: 10em;
+}
+.gallery div h3{
+    text-align: center;
+    font-size: 5em;
+    padding-top: .5em;
+}
+
+footer{
+    background: pink;
+}
